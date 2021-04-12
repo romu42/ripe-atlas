@@ -1,11 +1,11 @@
 ## Ripe Atlas Overview
 
-All of this you can go and read yourself, so consider it a quickie TL;DR.
+All of this you can go and read for yourself in detail, this is just a quick TL;DR.
 
-Ripe Atlas can be reached found here: https://atlas.ripe.net/ and if you want to 
-read all of the documentation yourself you can find it here: https://beta-docs.atlas.ripe.net/
+Ripe Atlas can be found here: https://atlas.ripe.net/, if you find it interesting after this presentation
+and would like to dive deeper into it I can recommend you read the docs: https://beta-docs.atlas.ripe.net/
 
-Ripe Atlas is a global probe network run by the Ripe NCC that is used both by companies, researchers and
+Ripe Atlas is a [global probe network](https://atlas.ripe.net/results/maps/network-coverage/) run by the Ripe NCC that is used both by companies, researchers and
 private persons.
 
 Based on probes that are hosted primarily by private individuals and Anchors, enhanced probes and targets
@@ -18,27 +18,25 @@ You can then if you wish use these credits to run measurements of your own.
 
 Ripe Atlas is also useful with out even owning a probe or having credits.
 
-<br>
-<br>
-<br>
+---
 
-	=== DNSMON ===
+### DNSMON ### 
 One 'free' services is the Ripe Atlas DNSMON:
 
 
 DNSMON is a frontend that presents and overview of DNS measurements that are run on a recurring basis.
-* [ ] Present DNSMON
+* Present DNSMON
     * https://atlas.ripe.net/dnsmon/group/se. 
     * https://atlas.ripe.net/dnsmon/group/nu.
 
     
-* [ ] Show recurring measurements
+* Show recurring [measurements](https://atlas.ripe.net/measurements/1431439/)
 
 
 
-### Open Data
+### Open Data ###
 
-There are a lot of measurements that are set up with public results. This is another area where there is 'free' data. You can just download the results, but the best way to access and use this data is via the API's: https://beta-docs.atlas.ripe.net/apis/ 
+There are a lot of measurements that are set up with public results, so called user defined measurements. This is just more 'free' data. You can just download the results, but the best way to access and use this data is via the API's: https://beta-docs.atlas.ripe.net/apis/ 
 
 This is out of scope of this walk through.
 
@@ -52,9 +50,9 @@ Ripe Atlas registration: https://access.ripe.net/registration
 Measurements can be set up using both the web-gui and the API's. I can recommend learning to use the API's if you find yourself using Ripe Atlas to make a lot of measurements.
 
 
-* [ ] Set up a measurement
+*  Set up a measurement
 	From the [measurements](https://atlas.ripe.net/measurements) page click on the "+ Create a Measurement"  [link](https://atlas.ripe.net/measurements/form/).
-* [ ] Fill in the form. (The following is a working example)
+*  Fill in the form. (The following is a working example)
 	* Target:  a.ns.se
 	* Address Family: IPv4
 	* Query Class: IN
@@ -67,7 +65,7 @@ Measurements can be set up using both the web-gui and the API's. I can recommend
 	* Resolve on Probe: same here
 	* Set NSID bit: Always set this, it will give you information on what server is answering
 
-* [ ] Probe Selection:
+*  Probe Selection:
 	* If you want to just use worldwide 10 fine otherwise
 	* kill that one and click on "New Set Wizard"
 	* Write "Sweden" in the "Search by place, IP, prefix ... " field
@@ -75,13 +73,13 @@ Measurements can be set up using both the web-gui and the API's. I can recommend
 	* Add ( Include and Exclude based on tags is outside the scope of this document, go read the docs)
 	* OK
 	
-* [ ] Timng:
+*  Timng:
 	* OK this is important. Choose "This is a One-off" Running measurements can get "expensive", This should cauase the "Cost summary" to reduce drastically.
 	 
 	  
-* [ ] Click on "Create My Measurement"
-* [ ] Check out the results
-* [ ] You will get a pop up when you created the measurement to access the measurement:
+* Click on "Create My Measurement"
+* Check out the results
+* You will get a pop up when you created the measurement to access the measurement:
 	* Settings & Status
 		- an overview of the information used to create the measurement
 	* Latest Results
